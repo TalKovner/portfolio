@@ -5,8 +5,8 @@ function Languages() {
     return(
         <section className="languages">
             <div className="lang" id="lang">
-                <p>Hebrew: Nativ <br></br>
-                   English: High level (reading, writing) | Recommendations will be given upon request</p>
+                <p>Hebrew: Native
+                   English: High level (reading, writing) | <br></br> Recommendations will be given upon request</p>
             </div>
         </section>
     );

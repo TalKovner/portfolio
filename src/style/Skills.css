@@ -1,0 +1,168 @@
+.skills {
+    position: relative;
+    padding: 119px 7% 88px 7%;
+    background-color: rgb(245 242 245);
+    background-image: linear-gradient(rgb(245 242 245) 10%, rgb(243 243 212));
+}
+
+.arrow-down {
+  margin: 15px;
+  font-size: 30px;
+  vertical-align: initial;
+  transition: 1s;
+  transform: rotate(90deg);
+}
+
+.fas {
+  transform: inherit;
+}
+
+.rotate {
+  transform: rotate(990deg);
+}
+
+.skills .content {
+  display: block;
+  height: 0px;
+  transition: 1.5s;
+}
+
+.skills .heading {
+  cursor: pointer;
+}
+
+.show {
+  display: block !important;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.heading h2 {
+  display: inline;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.skillsBx {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skillsHead {
+    margin-bottom: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.skillsHead:hover {
+    text-decoration: underline;
+}
+
+.techS {
+    width: 50%;
+    margin-right: 79px;
+    text-align: center;
+}
+
+.persS {
+    width: 50%;
+    text-align: center;
+}
+
+.skillFlex {
+    width: 100%;
+    height: 480px;
+    position: relative;
+    display: none;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.add-height {
+  height: 533px !important;
+}
+
+.add-flex {
+    display: flex;
+}
+
+#dots9 {
+    left: 0;
+    top: -172px;
+}
+
+@keyframes fadeInTopRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInTopRight {
+    animation-name: fadeInTopRight;
+    animation-duration: 4s;
+  }
+
+  @keyframes fadeInTopLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInTopLeft {
+    animation-name: fadeInTopLeft;
+    animation-duration: 4s;
+  }
+
+@media (max-width: 991px) {
+  .skills {
+    padding: 119px 100px 88px 100px;
+  }
+
+  .skillsBx {
+    flex-direction: column;
+  }
+
+  .techS, .persS {
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  .add-height {
+    height: 1137px !important;
+  }
+
+  .arrow-down {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills {
+      padding: 119px 10px 88px 10px;
+  }
+
+  .skillFlex {
+    height: 350px;
+  }
+
+  .add-height {
+    height: 800px !important;
+  }
+}

@@ -1,0 +1,35 @@
+.hobbies {
+    position: relative;
+    padding: 10px 100px 7px 100px;
+    background-color: rgb(255 255 254 / 1);
+    background-image: linear-gradient(rgb(206 249 233), rgb(232 247 202));
+}
+
+.hobbie {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(152px, 1fr));
+    grid-gap: 1rem;
+    font-size: 10px;
+    place-content: center;
+  }
+
+  .hobbie div img {
+    height: 48px;
+    margin: 0 auto;
+  }
+
+  .hobbie p {
+      font-size: 15px;
+  }
+
+.center {
+    display: grid;
+    place-content: center;
+}
+
+@media (max-width: 600px) {
+  .hobbies {
+    position: relative;
+    padding: 10px 10px 7px 10px;
+  }
+}

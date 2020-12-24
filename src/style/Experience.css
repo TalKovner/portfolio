@@ -1,0 +1,28 @@
+.experience {
+    position: relative;
+    padding: 119px 350px 42px 350px;
+    background-color: rgb(243 243 212);
+    background-image: linear-gradient(rgb(243 243 212), rgb(245 229 200));
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#dots5 {
+    left: 0;
+}
+
+@media (max-width: 991px) {
+    .experience {
+        padding: 0;
+    }
+}

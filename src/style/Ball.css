@@ -1,0 +1,191 @@
+.ball {
+    height: 143px;
+    width: 143px;
+    background-color: #f5d9f7;
+    padding: 42px 0;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-bottom: 22px;
+    /* transition: all 1s; */
+    display: none;
+}
+
+.ball p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.child0 {
+    /* transition: all 1s; */
+    display: block;
+    animation: child0 2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes child0 {        
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(-167px, 0);
+    }      
+}
+
+.child1 {
+    display: block;
+    transform: translate(0px, 0px);
+}
+
+@keyframes child2 {        
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(167px, 0px);
+    }      
+}
+
+.child2 {
+    display: block;
+    animation: child2 1.9s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes child3 {        
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(167px, 167px);
+    }      
+}
+
+.child3 {
+    display: block;
+    animation: child3 1.3s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes child4 {        
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(0px, 167px);
+    }      
+}
+
+.child4 {
+    display: block;
+    animation: child4 1.7s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes child5 {        
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(-167px, 167px);
+    }      
+}
+
+.child5 {
+    display: block;
+    animation: child5 1.5s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes child6 {        
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(0px, 334px);
+    }      
+}
+
+.child6 {
+    display: block;
+    transform: translate(0px, 334px);
+    animation: child6 0.95s ease;
+    animation-fill-mode: forwards;
+}
+
+@media (max-width: 600px) {
+    /* .ball {
+        height: 90px;
+        width: 90px;
+    }
+
+    .ball p {
+        font-size: 10px;
+    } */
+
+    .ball {
+        height: 114px;
+        width: 114px;
+    }
+
+    .ball p {
+        font-size: 12px;
+    }
+
+    @keyframes child0 {        
+        from {
+            transform: translate(0px, 0px);
+        }
+        to {
+            transform: translate(-120px, 0);
+        }      
+    }
+
+    @keyframes child2 {        
+        from {
+            transform: translate(0px, 0px);
+        }
+        to {
+            transform: translate(120px, 0px);
+        }      
+    }
+
+    @keyframes child3 {        
+        from {
+            transform: translate(0px, 0px);
+        }
+        to {
+            transform: translate(120px, 120px);
+        }      
+    }
+
+    @keyframes child4 {        
+        from {
+            transform: translate(0px, 0px);
+        }
+        to {
+            transform: translate(0px, 120px);
+        }      
+    }
+
+    @keyframes child5 {        
+        from {
+            transform: translate(0px, 0px);
+        }
+        to {
+            transform: translate(-120px, 120px);
+        }      
+    }
+
+    @keyframes child6 {        
+        from {
+            transform: translate(0px, 0px);
+        }
+        to {
+            transform: translate(0px, 240px);
+        }      
+    }
+}

@@ -29,6 +29,7 @@ function Header() {
                 <li><a href="#protfolio" onClick={toggleMenu}>Portfolio</a></li>
                 <li><a href="#hobbies" onClick={toggleMenu} >Hobbies</a></li>
                 <li><a href="#lang" onClick={toggleMenu}>Languages</a></li>
+                <li><a href="#cont" onClick={toggleMenu}>Contact</a></li>
             </ul>
         </header>
     );

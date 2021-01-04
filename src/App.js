@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Portfolio from './components/Protfolio';
 import Hobbies from './components/Hobbies';
 import Languages from './components/Languages';
+import Contact from './components/Contact.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Portfolio />
       <Hobbies />
       <Languages />
+      <Contact />
     </div>
   );
 }

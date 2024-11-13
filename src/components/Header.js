@@ -21,15 +21,15 @@ function Header() {
             <a href="#home" className="logo">Portfolio</a>
             <div className="toggle" onClick={toggleMenu}></div>
             <ul className="menu">
-                <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-                <li><a href="#about" onClick={toggleMenu}>About</a></li>
-                <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
-                <li><a href="#education" onClick={toggleMenu}>Education</a></li>
-                <li><a href="#skills" onClick={() => toggleMenu() || toggleSkills()}>Skills</a></li>
-                <li><a href="#protfolio" onClick={toggleMenu}>Portfolio</a></li>
-                <li><a href="#hobbies" onClick={toggleMenu} >Hobbies</a></li>
-                <li><a href="#lang" onClick={toggleMenu}>Languages</a></li>
-                <li><a href="#cont" onClick={toggleMenu}>Contact</a></li>
+                <li><a href="#home" className='menuItem' onClick={toggleMenu}>Home</a></li>
+                <li><a href="#about" className='menuItem' onClick={toggleMenu}>About</a></li>
+                <li><a href="#experience" className='menuItem' onClick={toggleMenu}>Experience</a></li>
+                <li><a href="#education" className='menuItem' onClick={toggleMenu}>Education</a></li>
+                <li><a href="#skills" className='menuItem' onClick={() => toggleMenu() || toggleSkills()}>Skills</a></li>
+                <li><a href="#protfolio" className='menuItem' onClick={toggleMenu}>Portfolio</a></li>
+                <li><a href="#hobbies" className='menuItem' onClick={toggleMenu} >Hobbies</a></li>
+                <li><a href="#lang" className='menuItem' onClick={toggleMenu}>Languages</a></li>
+                <li><a href="#cont" className='menuItem' onClick={toggleMenu}>Contact</a></li>
             </ul>
         </header>
     );

@@ -1,8 +1,8 @@
 .hobbies {
     position: relative;
     padding: 10px 100px 7px 100px;
-    background-color: rgb(255 255 254 / 1);
-    background-image: linear-gradient(rgb(206 249 233), rgb(232 247 202));
+    background-color: #5c6773
+    /* background-image: linear-gradient(rgb(206 249 233), rgb(232 247 202)); */
 }
 
 .hobbie {
@@ -31,5 +31,11 @@
   .hobbies {
     position: relative;
     padding: 10px 10px 7px 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hobbies {
+      padding: 159px 40px 23px 40px;
   }
 }

@@ -1,11 +1,12 @@
 .languages {
     padding: 0;
-    background-image: linear-gradient(rgb(232 247 202), rgb(252 255 247));
+    background-color: #5c6773
+    /* background-image: linear-gradient(rgb(232 247 202), rgb(252 255 247)); */
 }
 .lang {
     padding: 65px 0 25px 0;
     color: #333030;
-    text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+    /* text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def; */
     font-size: 17px;
     text-align: center;
 }
@@ -13,6 +14,12 @@
 @media only screen and (max-width: 550px) {
     .info {
         margin: 19px auto 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .languages {
+        padding: 159px 40px 23px 40px;
     }
 }
 

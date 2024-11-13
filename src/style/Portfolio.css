@@ -1,15 +1,13 @@
 .protfolio {
     position: relative;
     padding: 103px 17px;
-    background-color: rgb(245 242 245);
-    background-image: linear-gradient(rgb(243 243 212) 10%, rgb(206 249 233));
+    background-color: #5c6773
+    /* background-image: linear-gradient(rgb(243 243 212) 10%, rgb(206 249 233)); */
 }
 
 .heading {
     width: 100%;
-    text-align: center;
     margin-bottom: 30px;
-    color: #111;
 }
 
 .heading h2 {
@@ -49,6 +47,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+
+    .prot-head {
+        padding: 159px 40px 23px 40px;
+    }
     .work-img {
         width: 350px;
     }

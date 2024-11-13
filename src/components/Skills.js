@@ -23,7 +23,7 @@ function Skills() {
     const persSkillData = skills.personalSkills.map((skill, i) => <Ball key={i} animationName={`child${i}`}><p>{skill}</p></Ball>)
     return (
         <section className="skills" id="skills">
-            <div className="heading" onClick={toggleSkills}>
+            <div className="skillMenu" onClick={toggleSkills}>
                 <span id="arrow-down" className="arrow-down"><i className="fas fa-caret-right"></i></span><h2>My Skills</h2>
             </div>
             <div className="content" id="skill-content">

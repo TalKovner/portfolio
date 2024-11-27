@@ -8,7 +8,7 @@ function Hobbies() {
     return(
         <section className="hobbies" id="hobbies">
             <div className="heading">
-                <h2>My Hobbies</h2>
+                <h2 className='hobbies-head'>My Hobbies</h2>
             </div>
             <div className="hobbie">{hobbiesList}</div> 
         </section>

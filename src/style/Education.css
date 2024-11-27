@@ -1,15 +1,9 @@
 .education {
     position: relative;
-    padding: 119px 350px 77px 350px;
+    padding: 138px 365px 127px 365px;
     background-color: #5c6773
     /* background-image: linear-gradient(rgb(245 229 200), rgb(245 242 245)); */
 }
-
-.heading {
-    width: 100%;
-    margin-bottom: 30px;
-}
-
 .heading h2 {
     font-weight: 600;
     font-size: 30px;

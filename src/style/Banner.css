@@ -1,5 +1,5 @@
 section {
-    padding: 229px 200px 325px 17%;
+    padding: 200px 200px 200px 17%;
 }
 
 .banner {
@@ -59,10 +59,14 @@ section {
     font-weight: 500;
 }
 
+.btn:hover{
+    background: #f8f3dc;
+}
+
 @media (max-width: 991px) {
-    section {
+    /* section {
         padding: 159px 232px 116px 300px;
-    }
+    } */
     .banner {
         display: block;
     }

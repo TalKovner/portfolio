@@ -1,17 +1,8 @@
 .about {
     position: relative;
     padding: 138px 365px 127px 365px;
-    background-color: rgb(245 245 242);
-    background-image: linear-gradient(rgb(245 245 242) 10%, rgb(243 243 212));
-}
-
-
-
-.heading {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #111;
+    background-color: #5c6773
+    /* background-image: linear-gradient(rgb(245 245 242) 10%, rgb(243 243 212)); */
 }
 
 .heading h2 {
@@ -19,9 +10,13 @@
     font-size: 30px;
 }
 
+h3 {
+    color: #ffffff;;
+}
+
 .content {
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
 }
 
 /* .contentBx {
@@ -50,7 +45,7 @@
     }
 
     .about {
-        padding: 138px 250px 127px 250px;
+        padding: 159px 40px 23px 40px;
     }
 
     .contentBx h3 {

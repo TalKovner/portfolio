@@ -1,96 +1,104 @@
 .protfolio {
-    position: relative;
-    padding: 103px 17px;
-    background-color: rgb(245 242 245);
-    background-image: linear-gradient(rgb(243 243 212) 10%, rgb(206 249 233));
+  position: relative;
+  text-align: center;
+  padding: 138px 365px 127px 365px;
+  background-color: #5c6773;
+  /* background-image: linear-gradient(rgb(243 243 212) 10%, rgb(206 249 233)); */
 }
 
-.heading {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #111;
+.prot-head {
+  text-align: center;
 }
 
 .heading h2 {
-    font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 33px;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 33px;
 }
 
 .work-img {
-    width: 500px;
-    border-radius: 23px;
-    border: 5px solid #74726c;
-    display: inline;
+  width: 500px;
+  border-radius: 23px;
+  border: 5px solid #cccbc7;
+  display: inline;
 }
 
 .memoryGame {
-    height: 418px;
-    width: 737px;
+  height: 418px;
+  width: 737px;
+}
+.work-container {
+  padding: 20px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .work-container a {
-    position: relative;
-    margin: 0 0 0 82px;
+  position: relative;
+  margin: 0 0 0 82px;
 }
 
 .work-desc {
-    position: absolute;
-    bottom: -22px;
-    margin: 0 auto;
-    width: -webkit-fill-available;
-}
-
-
-
-.memory-desc {
-    
+  position: absolute;
+  bottom: -22px;
+  margin: 0 auto;
+  /* width: -webkit-fill-available; */
 }
 
 @media only screen and (max-width: 991px) {
-    .work-img {
-        width: 350px;
-    }
+  .protfolio {
+    padding: 159px 40px 23px 40px;
+  }
 
-    .memoryGame {
-        height: 340px;
-        width: 605px;
-    }
+  .prot-head {
+    padding: 159px 40px 23px 40px;
+  }
+  .work-img {
+    width: 350px;
+  }
 
-    .work-desc {
-        position: absolute;
-        bottom: 25px;
-    }
+  .memoryGame {
+    height: 340px;
+    width: 605px;
+  }
+
+  .work-desc {
+    position: absolute;
+    bottom: 25px;
+    display: flex;
     
-    .memory-desc {
-        right: 235px;
-    }
+  }
 
-    .work-container a {
-        margin: 0;
-    }
+  .memory-desc {
+    right: 235px;
+  }
 
+  .work-container a {
+    margin: 0;
+  }
 }
 @media only screen and (max-width: 600px) {
-    
-    .work-img {
-        width: 245px;
-    }
-    
-    .memoryGame {
-        height: 180px;
-        width: 325px
-    }
 
-    .memory-desc {
-        right: 113px;
-        font-size: 15px;
-        width: 112px;
-        bottom: 14px;
-    }
+    .protfolio {
+    padding: 159px 40px 23px 40px;
+  }
+  .work-img {
+    width: 245px;
+  }
 
-    .work-desc {
-        font-size: 12px;
-    }
+  .memoryGame {
+    height: 180px;
+    width: 325px;
+  }
+
+  .memory-desc {
+    right: 113px;
+    font-size: 15px;
+    width: 112px;
+    bottom: 14px;
+  }
+
+  .work-desc {
+    font-size: 12px;
+  }
 }
